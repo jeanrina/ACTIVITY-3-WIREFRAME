@@ -1,0 +1,74 @@
+.grid-container {
+    display: grid;
+    box-sizing:border-box;
+    grid-template-areas:
+    "banner banner banner banner banner banner"
+    "nav nav nav nav nav nav"
+    "main main main picture about about"
+    "main main main picture about about"
+    "main main main recent recent recent"
+    "main main main recent recent recent"
+    "main main main recent recent recent"
+    "footer footer footer footer footer footer";
+    height: auto;
+    }
+    .ban {
+        grid-area: banner;
+        border: 2px solid black;
+        border-bottom: none;
+        height: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+    .nav {
+            grid-area: nav;
+            border: 2px solid black;
+            height: 3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+    .main {
+            grid-area: main;
+            border: 2px solid black;
+            border-bottom: none;
+            border-top: none;
+            height: 40rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    .picture {
+            grid-area: picture;
+            border: 2px solid black;
+            margin: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    .about {
+            grid-area: about;
+            border: 2px solid black;
+            margin: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    .recent {
+            grid-area: recent;
+            border: 2px solid black;
+            margin: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        .footer {
+            grid-area: footer;
+            border: 2px solid black;
+            height: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
